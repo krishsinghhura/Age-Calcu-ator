@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+}
+.header{
+    margin-left: 100px;
+}
+.header .javascript{
+    margin-bottom: -20px;
+}
+.header .age{
+    color: rgb(28, 83, 87);
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    height: 60px;
+    width: 370px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.493);
+    display: flex;
+    justify-content: space-around;
+}
+.input input{
+    width: 200px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.767);
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn{
+    width: 100px;
+    background-color: rgb(182, 244, 146);
+    border: none;
+    border-radius: 2px;
+    color: black;
+    height: 30px;
+    cursor: pointer;
+}
+.result{
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+}
+.result div,pre{
+    display: flex;
+}
+.years,.days,.months{
+    color: rgb(28, 83, 87);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn:active{
+    color: white;
+}
